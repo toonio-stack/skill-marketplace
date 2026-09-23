@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "toonio-skills",
+  "owner": {
+    "name": "toonio-stack",
+    "url": "https://github.com/toonio-stack"
+  },
+  "metadata": {
+    "description": "Marketplace de plugins Claude Code pour toonio-stack — skills réutilisables hors des dépôts cibles.",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "create-agent",
+      "description": "Concevoir et générer un package d'agent IA portable selon le standard The Boss (manifest, instructions, skills, tools, adapters, tests). À utiliser pour créer/structurer un nouvel agent.",
+      "author": { "name": "toonio-stack" },
+      "category": "workflow",
+      "version": "1.0.0",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/toonio-stack/skill-marketplace.git",
+        "path": "plugins/create-agent",
+        "ref": "main"
+      }
+    }
+  ]
+}

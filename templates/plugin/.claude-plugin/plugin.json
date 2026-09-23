@@ -1,0 +1,9 @@
+{
+  "name": "plugin-name",
+  "description": "One sentence: what the plugin does and where it applies.",
+  "version": "0.1.0",
+  "author": {
+    "name": "toonio-stack"
+  },
+  "repository": "https://github.com/toonio-stack/skill-marketplace"
+}

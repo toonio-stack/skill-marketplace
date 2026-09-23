@@ -1,6 +1,11 @@
 ---
 name: create-agent
-description: Use when designing, structuring, or generating a new portable AI agent/bot package following The Boss standard (manifest, instructions, skills, tools, adapters, tests).
+description: >-
+  Concevoir, structurer ou générer un package d'agent IA portable selon le
+  standard The Boss (manifest, instructions, skills, tools, adapters, tests).
+  Déclencheurs : "créer un agent", "nouveau bot", "packager un agent",
+  "create-agent", "standard The Boss". Skill générique de conception d'agents ;
+  rester silencieux pour une tâche métier ponctuelle qui n'appelle pas un nouvel agent.
 ---
 
 # create-agent
